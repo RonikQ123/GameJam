@@ -9,13 +9,13 @@ public class MaskShardCollectible : MonoBehaviour
     {
         // Auto-assign if possible in editor
         if (progress == null)
-            progress = FindObjectOfType<MaskProgress>();
+            progress = Object.FindAnyObjectByType<MaskProgress>();
     }
 
     private void Awake()
     {
         if (progress == null)
-            progress = FindObjectOfType<MaskProgress>();
+            progress = Object.FindAnyObjectByType<MaskProgress>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

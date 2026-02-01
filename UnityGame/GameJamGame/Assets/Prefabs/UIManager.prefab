@@ -51,6 +51,9 @@ MonoBehaviour:
   currentMaskText: {fileID: 0}
   progress: {fileID: 8928004633673033469}
   orchidButton: {fileID: 0}
+  promptUI: {fileID: 5821449523876015195}
+  orchidLockedMessage: You must collect orchid shards
+  messageSeconds: 1.5
 --- !u!114 &8928004633673033469
 MonoBehaviour:
   m_ObjectHideFlags: 0
