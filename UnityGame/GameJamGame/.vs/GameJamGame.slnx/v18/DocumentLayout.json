@@ -1,13 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\",
+  "WorkspaceRootPath": "D:\\GameJam\\UnityGame\\GameJamGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\PodiumScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PodiumScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\gamejam\\unitygame\\gamejamgame\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\ronik\\onedrive\\desktop\\gamejam\\unitygame\\gamejamgame\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\PodiumScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\gamejam\\unitygame\\gamejamgame\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +21,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\CameraFollow.cs",
+              "DocumentMoniker": "D:\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "D:\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -34,15 +37,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PodiumScript.cs",
               "DocumentMoniker": "C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\PodiumScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PodiumScript.cs",
               "ToolTip": "C:\\Users\\Ronik\\OneDrive\\Desktop\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\PodiumScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PodiumScript.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T14:12:33.593Z",
+              "WhenOpened": "2026-01-31T14:12:33.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "D:\\GameJam\\UnityGame\\GameJamGame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T11:31:44.518Z",
               "EditorCaption": ""
             }
           ]
