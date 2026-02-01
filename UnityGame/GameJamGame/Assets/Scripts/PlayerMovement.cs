@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
+    public float rotationSpeed = 720f;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -25,5 +26,13 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
+
+        if (moveInput.sqrMagnitude > 0.01f)
+        {
+            float targetAngle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg - 90f;
+            float currentAngle = transform.eulerAngles.z;
+            float newAngle = Mathf.MoveTowardsAngle(currentAngle, targetAngle, rotationSpeed * Time.fixedDeltaTime);
+            transform.rotation = Quaternion.Euler(0f, 0f, newAngle);
+        }
     }
 }
